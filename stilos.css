@@ -1,0 +1,295 @@
+body{
+    position: relative;
+    
+
+}
+
+header h1{
+    position:relative;
+    color:black;
+    text-align:center;
+    border: 5px solid black;
+    padding: 80px;
+}
+
+header nav, header nav ul, header nav ul li{
+    display: inline;
+}
+
+  
+header nav{
+    position: absolute;
+    right: 5px;
+    top:30px
+}
+  
+header img{
+    position: relative;
+    top:108px;
+}
+   
+nav ul li{
+    position: relative;
+    padding: 0px 5px;
+    border: 2px;
+    border-radius: 5px;
+    background-color: aqua(44, 106, 156);
+    margin: 0px 5px;
+}
+  
+li a{
+    color: rgb(6, 92, 63);
+    font-size:24px;
+}
+
+#fondo{
+    background-color: rgb(22, 184, 196);
+}
+
+#video{
+    position: relative;
+    text-align: center;
+    bottom: 190px;
+
+}
+#inicio{
+    background-color: rgb(234, 245, 241);
+    position: relative;
+    border: 3px solid black;
+    padding: 10px;
+    text-align: justify;
+    bottom: 150px;
+}
+#pcsmyo{
+    position:relative;
+    color:rgb(0, 0, 0);
+    bottom: 200px;
+    font-size:70px ;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#escudo{
+    position:relative;
+    top:100px;
+    left: 10px;
+    z-index: 1;
+}
+
+
+#historia{
+    background-color: rgb(22, 184, 196);
+}
+#hist{
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(82, 255, 192);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#geo{
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(82, 255, 192);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#cap{
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(82, 255, 192);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#lugtur{
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(82, 255, 192);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2,h3,h4{
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(234, 245, 241);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h8{
+        position:relative;
+        font-size:70px;
+        background-color: rgb(20, 105, 173);
+        color: white;
+        padding: 200px;
+        left: 80px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+}    
+#mapa{
+    position: relative; 
+    left: 260px;
+    width: 60%;
+    border: 3px solid black;
+    top: 20px;
+
+}
+
+
+#parrafohist{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: justify;
+    background-color:rgb(255, 255, 255);
+}
+#parrafo2{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: justify;
+}
+#parrafo3{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: justify;
+}
+#parrafo4{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: justify;
+}
+#parrafo5{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: justify;
+}
+#parrafo6{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: justify;
+}
+#parrafo7{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+#parrafo1,#parrafo2,#parrafo3,#parrafo4,#parrafo5,#parrafo6,#parrafo7{
+    background-color: rgb(234, 245, 241);
+}
+
+#comu{
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    background-color: rgb(209, 252, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+
+}
+#colorbody{
+    background-color:rgb(22, 184, 196);
+    position: relative;
+}
+ 
+#fondogaleria{
+    position: relative;
+    background-color:rgb(22, 184, 196);
+}
+
+#fotop{
+    position: relative;
+    left: 200px;
+    padding-top: 30px;
+}
+#comentarios{
+    background-color:rgb(22, 184, 196);
+    position: relative;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.galeria-contenedor{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows:500px;
+
+
+}
+.galeria__item{
+    position: relative;
+}
+.galeria__img{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria__item:nth-child(1){
+    grid-column-start: span 2 ;
+
+
+}
+.galeria__item:nth-child(2){
+    grid-column-start: span 1 ;
+    grid-row-start: span 2 ;
+
+
+}
+.galeria__item:nth-child(3){
+    grid-column-start: span 1 ;
+    grid-row-start: span 1 ;
+    
+
+
+}
+.galeria__item:nth-child(4){
+    grid-column-start: span 1 ;
+    grid-row-start: span 1 ;
+    
+
+}
+.galeria__item:nth-child(5){
+    grid-column-start: span 1 ;
+    grid-row-start: span 2 ;
+    
+
+
+}
+.galeria__item:nth-child(6){
+    grid-column-start: span 2 ;
+    grid-row-start: span 1 ;
+   
+
+}
+.galeria__item:nth-child(7){
+    grid-column-start: span 2 ;
+    grid-row-start: span 1 ;
+
+
+}
+.galeria__item:nth-child(8){
+    
+    grid-column-start: span 2 ;
+    grid-row-start: span 1 ;
+
+}
+.galeria__item:nth-child(9){
+    grid-column-start: span 1 ;
+    grid-row-start: span 1 ;
+
+}
+
+
+.galeria__tittle{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background:linear-gradient(rgba(255,255,255,0),rgba(0,0,1));
+    width:100%;
+    margin:0;
+    padding:40px;
+
+}
+
